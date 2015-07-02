@@ -1,0 +1,5 @@
+check process uaa_intel
+  with pidfile /var/vcap/sys/run/uaa_intel/uaa_intel.pid
+  start program "/var/vcap/jobs/uaa_intel/bin/monit_debugger uaa_intel_ctl '/var/vcap/jobs/uaa_intel/bin/uaa_intel_ctl start'"
+  stop program "/var/vcap/jobs/uaa_intel/bin/monit_debugger uaa_intel_ctl '/var/vcap/jobs/uaa_intel/bin/uaa_intel_ctl stop'"
+  group vcap

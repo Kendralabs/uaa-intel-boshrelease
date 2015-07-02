@@ -1,0 +1,13 @@
+---
+name: uaa-intel
+packages: []
+templates:
+  bin/monit_debugger: bin/monit_debugger
+  bin/uaa_intel_ctl: bin/uaa_intel_ctl
+  config/uaa_intel.conf.erb: config/uaa_intel.conf
+  data/properties.sh.erb: data/properties.sh
+  helpers/ctl_setup.sh: helpers/ctl_setup.sh
+  helpers/ctl_utils.sh: helpers/ctl_utils.sh
+properties:
+  uaa_intel.leader_address:
+    description: Hostname/IP to the leader/master of the cluster
