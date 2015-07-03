@@ -1,7 +1,7 @@
 ---
 name: uaa-intel
 dependencies:
-- ruby-2.1.6
+- ruby-2.1.6-intel
 files:
 - uaa-intel/**/*
 - openjdk/**/*

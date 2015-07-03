@@ -23,8 +23,8 @@ templates:
 
 
 packages:
-  - common
-  - ruby-2.1.6
+  - common-intel
+  - ruby-2.1.6-intel
   - uaa-intel
 
 properties:
