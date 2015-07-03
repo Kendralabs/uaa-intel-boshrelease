@@ -6,7 +6,7 @@ To use this bosh release, first upload it to your bosh:
 
 ```
 bosh target BOSH_HOST
-git clone https://github.com/cloudfoundry-community/uaa-intel-boshrelease.git
+git clone https://github.com/intel-data/uaa-intel-boshrelease.git
 cd uaa-intel-boshrelease
 bosh upload release releases/uaa-intel-1.yml
 ```
