@@ -1,10 +1,10 @@
 #!/bin/bash -e
 
 export PATH=/var/vcap/packages/ruby-2.1.6/bin:$PATH
-RUN_DIR=/var/vcap/sys/run/uaa
-LOG_DIR=/var/vcap/sys/log/uaa
+RUN_DIR=/var/vcap/sys/run/uaa-intel
+LOG_DIR=/var/vcap/sys/log/uaa-intel
 PIDFILE=$RUN_DIR/cf-registrar.pid
-VCAP_COMMON_PATH=/var/vcap/packages/uaa/vcap-common
+VCAP_COMMON_PATH=/var/vcap/packages/uaa-intel/vcap-common
 
 source /var/vcap/packages/common/utils.sh
 
@@ -22,7 +22,7 @@ case $1 in
     echo $$ > $PIDFILE
     chown vcap:vcap $PIDFILE
 
-    export CONFIG_FILE=/var/vcap/jobs/uaa/config/cf-registrar/config.yml
+    export CONFIG_FILE=/var/vcap/jobs/uaa-intel/config/cf-registrar/config.yml
 
     cd $VCAP_COMMON_PATH
     exec chpst -u vcap:vcap /var/vcap/packages/ruby-2.1.6/bin/bundle exec \

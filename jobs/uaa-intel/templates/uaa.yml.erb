@@ -42,7 +42,7 @@ spring_profiles: <%= properties.uaadb.db_scheme %>
 <% end %>
 
 logging:
-  config: /var/vcap/jobs/uaa/config/log4j.properties
+  config: /var/vcap/jobs/uaa-intel/config/log4j.properties
 
 <% if properties.uaa.jwt && properties.uaa.jwt.signing_key && properties.uaa.jwt.verification_key %>
 jwt:
