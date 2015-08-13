@@ -1,0 +1,31 @@
+---
+packages:
+- name: uaa-intel
+  version: 54fd57fe9ecbae1a5b79fcc88d7267fdba0ff8f4
+  fingerprint: 54fd57fe9ecbae1a5b79fcc88d7267fdba0ff8f4
+  sha1: 4ba8e111bf415a76027a846e9f87d5271b8679ea
+  dependencies:
+  - ruby-2.1.6-intel
+- name: common-intel
+  version: 7c774db615d36d85f4d905736833e7432524d567
+  fingerprint: 7c774db615d36d85f4d905736833e7432524d567
+  sha1: daa10739d0abaf46f0c4d69cf4f9f5c1c943a612
+  dependencies: []
+- name: ruby-2.1.6-intel
+  version: c10a92eb4684b9bbcd4b5eaa9b1c485ff10be0fd
+  fingerprint: c10a92eb4684b9bbcd4b5eaa9b1c485ff10be0fd
+  sha1: 65b9514cc21bc1e514fdc3bb6a220869b548bfec
+  dependencies: []
+jobs:
+- name: uaa-intel
+  version: ab1a7d1bd89cbca6e84827b3b7e8fa6197923c75
+  fingerprint: ab1a7d1bd89cbca6e84827b3b7e8fa6197923c75
+  sha1: d372c2c4fb505d3caffebb799657469c643853a9
+license:
+  version: 998470265c73e170044cbaa207e6b6728bfdf972
+  fingerprint: 998470265c73e170044cbaa207e6b6728bfdf972
+  sha1: bb8e91326454f580ac89b61a808db64a099660f7
+commit_hash: ff5d4a03
+uncommitted_changes: true
+name: uaa-intel
+version: '3'

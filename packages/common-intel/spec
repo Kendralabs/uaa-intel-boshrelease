@@ -1,0 +1,4 @@
+---
+name: common-intel
+files:
+- common-intel/utils.sh
