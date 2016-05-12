@@ -1,0 +1,41 @@
+---
+packages:
+- name: ruby-2.1.6-intel
+  version: c10a92eb4684b9bbcd4b5eaa9b1c485ff10be0fd
+  fingerprint: c10a92eb4684b9bbcd4b5eaa9b1c485ff10be0fd
+  sha1: 65b9514cc21bc1e514fdc3bb6a220869b548bfec
+  dependencies: []
+- name: common-intel
+  version: 7c774db615d36d85f4d905736833e7432524d567
+  fingerprint: 7c774db615d36d85f4d905736833e7432524d567
+  sha1: daa10739d0abaf46f0c4d69cf4f9f5c1c943a612
+  dependencies: []
+- name: uaa_postgres-9.4.2
+  version: 51f19d2b171aff15ce440bb5b03d89557d2216c0
+  fingerprint: 51f19d2b171aff15ce440bb5b03d89557d2216c0
+  sha1: 6291f5b40bdd0ac35758936f6ff0d5b59a4e7b2a
+  dependencies: []
+- name: uaa-intel
+  version: 9bef9ecd25488ed47d9314afbf576035bde66dd3
+  fingerprint: 9bef9ecd25488ed47d9314afbf576035bde66dd3
+  sha1: 5abd5cccc0b5eb5da395e695723d56190dde2bb3
+  dependencies:
+  - ruby-2.1.6-intel
+- name: uaa_utils
+  version: fc2e416c5af94d6293ac70bb594c984e31097fb7
+  fingerprint: fc2e416c5af94d6293ac70bb594c984e31097fb7
+  sha1: 452856e964f0c892bd3130b67960c4432a7d54ed
+  dependencies: []
+jobs:
+- name: uaa-intel
+  version: db4044e9ff183feeb15611f408217411fc705c87
+  fingerprint: db4044e9ff183feeb15611f408217411fc705c87
+  sha1: ba9fb3d76224d24ddea097697d6d2cd69ac60c71
+license:
+  version: 998470265c73e170044cbaa207e6b6728bfdf972
+  fingerprint: 998470265c73e170044cbaa207e6b6728bfdf972
+  sha1: bb8e91326454f580ac89b61a808db64a099660f7
+commit_hash: 6563b368
+uncommitted_changes: true
+name: uaa-intel
+version: '5'

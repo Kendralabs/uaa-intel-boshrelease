@@ -84,6 +84,9 @@ logout:
 
 login:
   brand: <%= (properties.login && properties.login.brand) ? properties.login.brand : "oss" %>
+<% if_p('login.home_redirect') do |home_redirect| %>
+  homeRedirect: <%= home_redirect %>
+<% end %>
   url: <%= "#{protocol}://login.#{properties.domain}" %>
   entityBaseURL: <%= "#{protocol}://login.#{properties.domain}" %>
   entityID: <%= (properties.login && properties.login.saml.entityid) ? properties.login.saml.entityid : properties.login.entity_id ? properties.login.entity_id : "login.#{properties.domain}" %>

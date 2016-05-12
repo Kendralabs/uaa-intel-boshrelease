@@ -1,32 +1,32 @@
 ---
-uaa-intel/cloudfoundry-identity-varz-1.0.2.war:
-  object_id: c44d45a4-39f4-4a9f-a106-784f7f3adbdc
-  sha: 8c35ed35fb6dfc4a97a243447763c635812066e8
-  size: 5727747
-uaa-intel/apache-tomcat-7.0.55.tar.gz:
-  object_id: 1d4af82f-e006-4f27-a294-ccb02206cbb0
-  sha: 4e23f1e3d6d24e0affebe78f6f5c5d5a49eb4e37
-  size: 8941662
+postgres/postgresql-9.4.2.tar.gz:
+  object_id: 04bb6f1d-14f6-421c-8bc1-452b18c29665
+  sha: 7a70474f9b44fea1b345e48bd5e4418bccf41f3f
+  size: 23092865
 uaa-intel/apache-tomcat-7.0.61.tar.gz:
-  object_id: d87ce68d-3cb7-4321-a2de-7b3cf06dc472
+  object_id: b2a7ce9f-2673-4702-97e4-372d25eeb05d
   sha: 98ccbc95d029291e81bf818879ec8a0aa14465df
   size: 8816567
+uaa-intel/cloudfoundry-identity-varz-1.0.2.war:
+  object_id: 1a0e5866-f1ae-46f2-a519-a74b9adb0003
+  sha: 8c35ed35fb6dfc4a97a243447763c635812066e8
+  size: 5727747
 uaa-intel/newrelic.jar:
-  object_id: 1e6c13a8-ccc0-40f0-9acc-79308fc4a88b
+  object_id: 97012cfa-58e4-4a2d-8a22-9be557e980ee
   sha: a5070963fc84bea27acc1d492cb9e3143f0c4715
   size: 7064901
-openjdk/openjdk-1.7.0-u40-unofficial-macosx-x86_64-bundle.tgz:
-  object_id: 02943f42-e95b-4617-af8b-e3e01b9cff18
-  sha: ac7febc5bbff2dedf8add624a727a4c0ac6c3d10
-  size: 65991397
-openjdk/openjdk-1.7.0-u40-unofficial-linux-amd64.tgz:
-  object_id: 355121a7-54f6-4fb1-9057-09e41a426713
-  sha: bb41c68e0dc26ad71635d4bff8da16246ded10f0
-  size: 42574624
-openjdk/openjdk-1.7.0_79.tar.gz:
-  object_id: 2f27258d-47e1-49b0-b202-b5af40d636a4
-  sha: 2ca6e142325a3e054efbf5b72995cb9ce416d607
-  size: 36244117
+uaa-intel/cloudfoundry-identity-statsd-1.0.0.war:
+  object_id: 928a8aca-a8f0-4036-aa0c-804c463fc895
+  sha: c26a49ef1c8c5d6b215bf57ca6267e4d7f9f1a53
+  size: 11163253
+openjdk/openjdk-1.8.0_73-x86_64-mountainlion.tar.gz:
+  object_id: 8e341e7a-3e96-4a30-90b3-2820bddc3bb6
+  sha: 9fe451af7b0497d195be197d1813b109a7bce600
+  size: 81961289
+openjdk/openjdk-1.8.0_73-x86_64-trusty.tar.gz:
+  object_id: 5aa0e92b-aad3-49cc-879e-94f4b47e2252
+  sha: 251144ff72db0b9c2f73446cbb0549b0ecf3d499
+  size: 77620313
 ruby-2.1.6-intel/ruby-2.1.6.tar.gz:
   object_id: 39674269-234e-4e08-9137-dcec96782f38
   sha: 426289b6647ce35ad101091825b6e7e5fce207f3
