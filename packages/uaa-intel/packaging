@@ -1,7 +1,7 @@
 set -e -x
 
 cd ${BOSH_INSTALL_TARGET}
-mkdir jdk && tar zxvf ${BOSH_COMPILE_TARGET}/openjdk/openjdk-1.8.0_73-x86_64-trusty.tar.gz -C jdk
+mkdir jdk && tar zxvf ${BOSH_COMPILE_TARGET}/openjdk/java-8-openjdk-amd64.tar.gz -C jdk
 if [[ $? != 0 ]] ; then
   echo "Cannot unpack JDK"
   exit 1
@@ -19,8 +19,8 @@ mv apache-tomcat-7.0.61 tomcat
 
 cd tomcat
 rm -rf webapps/*
-cp -a ${BOSH_COMPILE_TARGET}/uaa-intel/cloudfoundry-identity-uaa.war webapps/ROOT.war
-cp -a ${BOSH_COMPILE_TARGET}/uaa-intel/cloudfoundry-identity-statsd-1.0.0.war webapps/statsd.war
+cp -a ${BOSH_COMPILE_TARGET}/uaa-intel/cloudfoundry-identity-uaa-4.30.0.war webapps/ROOT.war
+cp -a ${BOSH_COMPILE_TARGET}/uaa-intel/cloudfoundry-identity-statsd-4.30.0.war webapps/statsd.war
 cp -a ${BOSH_COMPILE_TARGET}/uaa-intel/newrelic.jar bin/newrelic.jar
 
 cd ${BOSH_INSTALL_TARGET}
