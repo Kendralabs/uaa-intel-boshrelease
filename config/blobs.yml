@@ -7,26 +7,10 @@ uaa-intel/apache-tomcat-7.0.61.tar.gz:
   object_id: b2a7ce9f-2673-4702-97e4-372d25eeb05d
   sha: 98ccbc95d029291e81bf818879ec8a0aa14465df
   size: 8816567
-uaa-intel/cloudfoundry-identity-varz-1.0.2.war:
-  object_id: 1a0e5866-f1ae-46f2-a519-a74b9adb0003
-  sha: 8c35ed35fb6dfc4a97a243447763c635812066e8
-  size: 5727747
 uaa-intel/newrelic.jar:
-  object_id: 97012cfa-58e4-4a2d-8a22-9be557e980ee
-  sha: a5070963fc84bea27acc1d492cb9e3143f0c4715
-  size: 7064901
-uaa-intel/cloudfoundry-identity-statsd-1.0.0.war:
-  object_id: 928a8aca-a8f0-4036-aa0c-804c463fc895
-  sha: c26a49ef1c8c5d6b215bf57ca6267e4d7f9f1a53
-  size: 11163253
-openjdk/openjdk-1.8.0_73-x86_64-mountainlion.tar.gz:
-  object_id: 8e341e7a-3e96-4a30-90b3-2820bddc3bb6
-  sha: 9fe451af7b0497d195be197d1813b109a7bce600
-  size: 81961289
-openjdk/openjdk-1.8.0_73-x86_64-trusty.tar.gz:
-  object_id: 5aa0e92b-aad3-49cc-879e-94f4b47e2252
-  sha: 251144ff72db0b9c2f73446cbb0549b0ecf3d499
-  size: 77620313
+  object_id: e141b6a5-4b9e-48d6-99cd-759ac4be0c5b
+  sha: e68b70bde82707a8376f8409a6548d042044584a
+  size: 16000643
 ruby-2.1.6-intel/ruby-2.1.6.tar.gz:
   object_id: 39674269-234e-4e08-9137-dcec96782f38
   sha: 426289b6647ce35ad101091825b6e7e5fce207f3
@@ -36,10 +20,22 @@ ruby-2.1.6-intel/yaml-0.1.6.tar.gz:
   sha: f3d404e11bec3c4efcddfd14c42d46f1aabe0b5d
   size: 503012
 ruby-2.1.6-intel/rubygems-2.4.6.tgz:
-  object_id: 1d5db62e-b908-477b-bbcb-1f51d84753f3
-  sha: bf59306c0f6c37551875e70ce8ccfb1cbc60c28b
-  size: 447588
+  object_id: b1dcde1c-9cc9-4b0d-bdc4-32dac02c3490
+  sha: 34810b0c222a74aa871a2d851b4c406f449cc401
+  size: 463791
 ruby-2.1.6-intel/bundler-1.9.4.gem:
-  object_id: 5ecce04d-ca09-4e4b-b3c8-a95968c25fb4
-  sha: ea3f17a76a8249049b5589c9b5421af72189babc
-  size: 244224
+  object_id: 5acf51c6-0c8e-4c11-9eb8-a1ea71250720
+  sha: bf294db8686fdf24cef5be778cf4c99518b85359
+  size: 36352
+uaa-intel/cloudfoundry-identity-statsd-4.30.0.war:
+  object_id: 3c64c794-c17a-46d0-a4d4-682051368bb1
+  sha: 3cc441a42730f474f5f0eb4f1d0b7d8d0bd592a1
+  size: 9095958
+uaa-intel/cloudfoundry-identity-uaa-4.30.0.war:
+  object_id: 22f2c34b-fbbf-4df2-8417-ba06aa92660d
+  sha: f97c82edf7527bb4707ba84a9052ddc7d24d526d
+  size: 60495419
+openjdk/java-8-openjdk-amd64.tar.gz:
+  object_id: 71e73139-0e5d-440a-af40-11ab7f386cd5
+  sha: 19f7ca1350485fc0f129df2f62220efbaf2e97c9
+  size: 56645077
