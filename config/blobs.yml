@@ -1,24 +1,8 @@
 ---
-postgres/postgresql-9.4.2.tar.gz:
-  object_id: 04bb6f1d-14f6-421c-8bc1-452b18c29665
-  sha: 7a70474f9b44fea1b345e48bd5e4418bccf41f3f
-  size: 23092865
-uaa-intel/apache-tomcat-7.0.61.tar.gz:
-  object_id: b2a7ce9f-2673-4702-97e4-372d25eeb05d
-  sha: 98ccbc95d029291e81bf818879ec8a0aa14465df
-  size: 8816567
 uaa-intel/newrelic.jar:
   object_id: e141b6a5-4b9e-48d6-99cd-759ac4be0c5b
   sha: e68b70bde82707a8376f8409a6548d042044584a
   size: 16000643
-ruby-2.1.6-intel/ruby-2.1.6.tar.gz:
-  object_id: 39674269-234e-4e08-9137-dcec96782f38
-  sha: 426289b6647ce35ad101091825b6e7e5fce207f3
-  size: 15141710
-ruby-2.1.6-intel/yaml-0.1.6.tar.gz:
-  object_id: d9101474-a3cb-4f04-844f-6bc4a65905ca
-  sha: f3d404e11bec3c4efcddfd14c42d46f1aabe0b5d
-  size: 503012
 ruby-2.1.6-intel/rubygems-2.4.6.tgz:
   object_id: b1dcde1c-9cc9-4b0d-bdc4-32dac02c3490
   sha: 34810b0c222a74aa871a2d851b4c406f449cc401
@@ -39,3 +23,19 @@ openjdk/java-8-openjdk-amd64.tar.gz:
   object_id: 71e73139-0e5d-440a-af40-11ab7f386cd5
   sha: 19f7ca1350485fc0f129df2f62220efbaf2e97c9
   size: 56645077
+ruby-2.1.6-intel/ruby-2.1.6.tar.gz:
+  object_id: 2864d52b-16f7-43d8-a55b-239601eec473
+  sha: 426289b6647ce35ad101091825b6e7e5fce207f3
+  size: 15141710
+ruby-2.1.6-intel/yaml-0.1.6.tar.gz:
+  object_id: 230a01b6-397b-4d94-8d49-fd88f0567418
+  sha: f3d404e11bec3c4efcddfd14c42d46f1aabe0b5d
+  size: 503012
+postgress/postgresql-9.4.2.tar.gz:
+  object_id: e04dd3a8-2f3a-49b0-a455-6d185f04f010
+  sha: 7a70474f9b44fea1b345e48bd5e4418bccf41f3f
+  size: 23092865
+uaa-intel/apache-tomcat-7.0.61.tar.gz:
+  object_id: 0c51f987-6059-4078-9493-f437b286947c
+  sha: 98ccbc95d029291e81bf818879ec8a0aa14465df
+  size: 8816567
