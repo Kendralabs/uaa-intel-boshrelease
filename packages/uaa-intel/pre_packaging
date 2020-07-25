@@ -34,13 +34,13 @@ export PATH=$JAVA_HOME/bin:$PATH
 cd ${BUILD_DIR}/uaa-intel
 #./gradlew assemble
 #GIT_DIR=$(find $RELEASE_DIR -path "*/modules/src/uaa-intel") ./gradlew :assemble
-git clone https://github.com/jainilaws1/uaa.git
-sleep 10
-./gradlew :assemble
-pwd
-find . -name "*.war"
-cp uaa/build/libs/cloudfoundry-identity-uaa-*.war ${BUILD_DIR}/uaa-intel/cloudfoundry-identity-uaa.war
-
+#git clone https://github.com/jainilaws1/uaa.git
+#sleep 10
+#./gradlew :assemble
+#pwd
+#find . -name "*.war"
+#cp uaa/build/libs/cloudfoundry-identity-uaa-*.war ${BUILD_DIR}/uaa-intel/cloudfoundry-identity-uaa.war
+cp /root/uaa-intel-boshrelease/blobs/uaa-intel/cloudfoundry-identity-uaa-*.war ${BUILD_DIR}/uaa-intel/cloudfoundry-identity-uaa.war
 #clean build data
 ./gradlew clean
 cd ${BUILD_DIR}
