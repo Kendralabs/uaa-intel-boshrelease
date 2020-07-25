@@ -35,6 +35,7 @@ cd ${BUILD_DIR}/uaa-intel
 #./gradlew assemble
 #GIT_DIR=$(find $RELEASE_DIR -path "*/modules/src/uaa-intel") ./gradlew :assemble
 git clone https://github.com/jainilaws1/uaa.git
+sleep 10
 ./gradlew :assemble
 pwd
 find . -name "*.war"
