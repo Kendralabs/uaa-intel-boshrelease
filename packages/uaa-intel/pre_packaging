@@ -1,7 +1,6 @@
 set -e -x
 
 #registrar information
-BUILD_DIR=/root/uaa-intel-boshrelease/build
 cd ${BUILD_DIR}/cf-registrar-bundle-for-identity
 BUNDLE_WITHOUT=development:test bundle package --all
 
