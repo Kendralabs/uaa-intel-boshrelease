@@ -34,7 +34,8 @@ export PATH=$JAVA_HOME/bin:$PATH
 cd ${BUILD_DIR}/uaa-intel
 #./gradlew assemble
 #GIT_DIR=$(find $RELEASE_DIR -path "*/modules/src/uaa-intel") ./gradlew :assemble
-GIT_DIR=https://github.com/jainilaws1/uaa ./gradlew :assemble
+git clone https://github.com/jainilaws1/uaa.git
+./gradlew :assemble
 pwd
 find . -name "*.war"
 cp uaa/build/libs/cloudfoundry-identity-uaa-*.war ${BUILD_DIR}/uaa-intel/cloudfoundry-identity-uaa.war
