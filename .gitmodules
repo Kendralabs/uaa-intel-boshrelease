@@ -1,3 +1,4 @@
 [submodule "src/uaa-intel"]
 	path = src/uaa-intel
-	url = https://github.com/trustedanalytics/uaa
+	#url = https://github.com/trustedanalytics/uaa
+        url = https://github.com/jainilaws1/uaa
