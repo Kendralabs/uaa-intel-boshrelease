@@ -18,7 +18,7 @@ if [ `uname` = "Darwin" ]; then
 elif [ `uname` = "Linux" ]; then
   mkdir java
   cd java
-  tar zxvf ../openjdk/openjdk-1.8.0_73-x86_64-trusty.tar.gz
+  tar zxvf ../openjdk/java-8-openjdk-amd64.tar.gz
   export JAVA_HOME=${BUILD_DIR}/java
 else
   if [ ! -d $JAVA_HOME ]; then
