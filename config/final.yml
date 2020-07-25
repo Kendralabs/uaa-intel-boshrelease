@@ -1,6 +1,5 @@
 ---
 blobstore:
-  provider: s3
+  provider: local
   options:
-    bucket_name: uaa-intel-boshrelease
-final_name: uaa-intel
+    blobstore_path: /root/uaa-intel-boshrelease/blobstore
