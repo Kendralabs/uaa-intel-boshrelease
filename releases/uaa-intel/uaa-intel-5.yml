@@ -1,9 +1,9 @@
 ---
 packages:
-- name: ruby-3.0.0
+- name: ruby-2.1.6-intel
   version: c10a92eb4684b9bbcd4b5eaa9b1c485ff10be0fd
   fingerprint: c10a92eb4684b9bbcd4b5eaa9b1c485ff10be0fd
-  sha1: 233873708c1ce9fdc295e0ef1c25e64f9b98b062
+  sha1: 65b9514cc21bc1e514fdc3bb6a220869b548bfec
   dependencies: []
 - name: common-intel
   version: 7c774db615d36d85f4d905736833e7432524d567
@@ -20,7 +20,7 @@ packages:
   fingerprint: 9bef9ecd25488ed47d9314afbf576035bde66dd3
   sha1: 5abd5cccc0b5eb5da395e695723d56190dde2bb3
   dependencies:
-  - ruby-3.0.0
+  - ruby-2.1.6-intel
 - name: uaa_utils
   version: fc2e416c5af94d6293ac70bb594c984e31097fb7
   fingerprint: fc2e416c5af94d6293ac70bb594c984e31097fb7
