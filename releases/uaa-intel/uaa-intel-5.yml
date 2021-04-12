@@ -10,10 +10,10 @@ packages:
   fingerprint: 7c774db615d36d85f4d905736833e7432524d567
   sha1: daa10739d0abaf46f0c4d69cf4f9f5c1c943a612
   dependencies: []
-- name: uaa_postgres-9.4.2
-  version: 51f19d2b171aff15ce440bb5b03d89557d2216c0
-  fingerprint: 51f19d2b171aff15ce440bb5b03d89557d2216c0
-  sha1: 6291f5b40bdd0ac35758936f6ff0d5b59a4e7b2a
+- name: uaa_postgres-9.4.6
+  version: 5da82887a3af9cd66c51eb175de8a1db55272c5b
+  fingerprint: 5da82887a3af9cd66c51eb175de8a1db55272c5b
+  sha1: 54e23fe9d89d945a1057bc0dffeb76e3e12404e4
   dependencies: []
 - name: uaa-intel
   version: 9bef9ecd25488ed47d9314afbf576035bde66dd3
