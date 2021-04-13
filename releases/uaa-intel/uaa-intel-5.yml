@@ -1,40 +1,45 @@
 ---
 packages:
-- name: ruby-2.1.6-intel
-  version: c10a92eb4684b9bbcd4b5eaa9b1c485ff10be0fd
-  fingerprint: c10a92eb4684b9bbcd4b5eaa9b1c485ff10be0fd
-  sha1: 65b9514cc21bc1e514fdc3bb6a220869b548bfec
-  dependencies: []
-- name: common-intel
-  version: 7c774db615d36d85f4d905736833e7432524d567
-  fingerprint: 7c774db615d36d85f4d905736833e7432524d567
-  sha1: daa10739d0abaf46f0c4d69cf4f9f5c1c943a612
-  dependencies: []
-- name: uaa_postgres-9.4.2
-  version: 51f19d2b171aff15ce440bb5b03d89557d2216c0
-  fingerprint: 51f19d2b171aff15ce440bb5b03d89557d2216c0
-  sha1: 6291f5b40bdd0ac35758936f6ff0d5b59a4e7b2a
-  dependencies: []
-- name: uaa-intel
-  version: 9bef9ecd25488ed47d9314afbf576035bde66dd3
-  fingerprint: 9bef9ecd25488ed47d9314afbf576035bde66dd3
-  sha1: 5abd5cccc0b5eb5da395e695723d56190dde2bb3
-  dependencies:
-  - ruby-2.1.6-intel
-- name: uaa_utils
-  version: fc2e416c5af94d6293ac70bb594c984e31097fb7
-  fingerprint: fc2e416c5af94d6293ac70bb594c984e31097fb7
-  sha1: 452856e964f0c892bd3130b67960c4432a7d54ed
-  dependencies: []
-jobs:
-- name: uaa-intel
-  version: db4044e9ff183feeb15611f408217411fc705c87
-  fingerprint: db4044e9ff183feeb15611f408217411fc705c87
-  sha1: ba9fb3d76224d24ddea097697d6d2cd69ac60c71
-license:
-  version: 998470265c73e170044cbaa207e6b6728bfdf972
-  fingerprint: 998470265c73e170044cbaa207e6b6728bfdf972
-  sha1: bb8e91326454f580ac89b61a808db64a099660f7
+uaa-intel/newrelic.jar:
+  object_id: e141b6a5-4b9e-48d6-99cd-759ac4be0c5b
+  sha: e68b70bde82707a8376f8409a6548d042044584a
+  size: 16000643
+ruby-2.1.6-intel/rubygems-2.4.6.tgz:
+  object_id: b1dcde1c-9cc9-4b0d-bdc4-32dac02c3490
+  sha: 34810b0c222a74aa871a2d851b4c406f449cc401
+  size: 463791
+ruby-2.1.6-intel/bundler-1.9.4.gem:
+  object_id: 5acf51c6-0c8e-4c11-9eb8-a1ea71250720
+  sha: bf294db8686fdf24cef5be778cf4c99518b85359
+  size: 36352
+uaa-intel/cloudfoundry-identity-statsd-4.30.0.war:
+  object_id: 3c64c794-c17a-46d0-a4d4-682051368bb1
+  sha: 3cc441a42730f474f5f0eb4f1d0b7d8d0bd592a1
+  size: 9095958
+uaa-intel/cloudfoundry-identity-uaa-4.30.0.war:
+  object_id: 22f2c34b-fbbf-4df2-8417-ba06aa92660d
+  sha: f97c82edf7527bb4707ba84a9052ddc7d24d526d
+  size: 60495419
+openjdk/java-8-openjdk-amd64.tar.gz:
+  object_id: 71e73139-0e5d-440a-af40-11ab7f386cd5
+  sha: 19f7ca1350485fc0f129df2f62220efbaf2e97c9
+  size: 56645077
+ruby-2.1.6-intel/ruby-2.1.6.tar.gz:
+  object_id: 2864d52b-16f7-43d8-a55b-239601eec473
+  sha: 426289b6647ce35ad101091825b6e7e5fce207f3
+  size: 15141710
+ruby-2.1.6-intel/yaml-0.1.6.tar.gz:
+  object_id: 230a01b6-397b-4d94-8d49-fd88f0567418
+  sha: f3d404e11bec3c4efcddfd14c42d46f1aabe0b5d
+  size: 503012
+postgress/postgresql-9.4.2.tar.gz:
+  object_id: e04dd3a8-2f3a-49b0-a455-6d185f04f010
+  sha: 7a70474f9b44fea1b345e48bd5e4418bccf41f3f
+  size: 23092865
+uaa-intel/apache-tomcat-7.0.61.tar.gz:
+  object_id: 0c51f987-6059-4078-9493-f437b286947c
+  sha: 98ccbc95d029291e81bf818879ec8a0aa14465df
+  size: 8816567
 commit_hash: 6563b368
 uncommitted_changes: true
 name: uaa-intel
